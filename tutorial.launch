@@ -9,7 +9,7 @@
 
 <!--################################ robot URDF ###################################### -->
  <!-- The arguments that nee to be changed Map & robot -->
-  <arg name="map_file" default="$(find rover2)/worlds/home1.yaml"/>
+ <!-- <arg name="map_file" default="$(find rover1)/worlds/home1.yaml"/>-->
   <arg name="model" default="robot1.urdf"/> 
   <param name="robot_description" textfile="$(find my_robot)/urdf/$(arg model)" />
 <!-- send fake joint values -->
